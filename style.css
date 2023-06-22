@@ -1,0 +1,75 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3em;
+}
+.sedan{
+    background:hsl(31, 77%, 52%);
+    grid-area: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn1:hover{
+    color: white;
+    background:hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+.btn2:hover{
+    color: white;
+    background:hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+.btn3:hover{
+    color: white;
+    background:hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+.suv{
+    background: hsl(184, 100%, 22%);
+    grid-area: middle;
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background: hsl(179, 100%, 13%);
+    grid-area: right;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn3{
+    color:hsl(179, 100%, 13%);
+    margin: 70px 0px 10px;
+
+}
+.container{
+    width: 890px;
+    color: white;
+    display: grid;
+    grid-template-areas: "left middle right";
+}
+button{
+    background: white;
+    border: white solid 2px;
+    border-radius: 20px;
+    padding: 8px 22px;
+}
+.luxury, .sedan, .suv{
+    padding: 20px 50px;
+    border: 0px solid red;
+}
+.btn1, .btn2{
+    margin: 90px 0px 10px;
+}
+img{
+    margin-top: 20px;
+}
